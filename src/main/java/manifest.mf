@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Name: com/representqueens/lingua/en
+Sealed: true
+Implementation-Title: "Java readability"
+Implementation-Version: "1.2"
+Implementation-Vendor: "Larry Ogrodnek"
