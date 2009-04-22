@@ -1,0 +1,26 @@
+<ivy-module version="1.1">
+
+    <info organisation="representqueens.com" module="java_fathom"/>
+
+    <configurations>
+		<!-- default configuration that 'by default' pulls in the global configuration -->
+		<conf name="default" extends="global"/>
+
+		<!-- core dependencies needed at compile-time, test-time, and runtime -->
+		<conf name="global" visibility="private"/>
+
+		<!-- additional dependencies needed only at build-time -->
+		<conf name="buildtime" visibility="private"/>
+
+		<!-- additional dependencies needed only at test-time -->
+		<conf name="test" visibility="private"/>
+    </configurations>
+
+    <dependencies defaultconf="global->default">
+    	<!-- global (compile, test, runtime) dependencies -->
+    	
+      <!-- test time only dependencies -->
+      <dependency org="junit" name="junit" rev="4.4" conf="test->default"/>
+   	  <dependency org="cobertura" name="cobertura" rev="1.9" conf="test->default"/>
+    </dependencies>
+</ivy-module>
