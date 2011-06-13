@@ -113,8 +113,12 @@ public class Syllable {
     if (_word == null || "".equals(_word)) {
       return 0;
     }
-
-    final String word = _word.toLowerCase().replaceAll("'", "").replaceAll("e$", "");
+    
+    final String word = _word.toLowerCase().replaceAll("'", "").replaceAll("e$", "");    
+    
+    if (word.length() == 1) {
+      return 1;
+    }
 
     final String[] scrugg = word.split("[^aeiouy]+"); // '-' should be perhaps
                                                       // added?
@@ -136,10 +140,6 @@ public class Syllable {
       if (m.find()) {
         syl++;
       }
-    }
-
-    if (word.length() == 1) {
-      syl++;
     }
 
     // count vowel groupings

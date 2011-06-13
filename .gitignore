@@ -1,4 +1,8 @@
 bin
 lib
 target
+reports
+*~
+
+
 
