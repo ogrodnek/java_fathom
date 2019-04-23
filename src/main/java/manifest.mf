@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Name: com/representqueens/lingua/en
+Name: com/.ogrodnek./lingua/en
 Sealed: true
 Implementation-Title: "Java readability"
 Implementation-Version: "1.2"

@@ -1,6 +1,6 @@
-package com.representqueens.lingua.en;
+package com.ogrodnek.lingua.en;
 
-import com.representqueens.lingua.en.Fathom.Stats;
+import com.ogrodnek.lingua.en.Fathom.Stats;
 
 /**
  * <p>

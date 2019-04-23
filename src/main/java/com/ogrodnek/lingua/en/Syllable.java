@@ -1,5 +1,5 @@
 /* $Id: Syllable.java,v 1.2 2007-10-22 01:28:51 larry Exp $ */
-package com.representqueens.lingua.en;
+package com.ogrodnek.lingua.en;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

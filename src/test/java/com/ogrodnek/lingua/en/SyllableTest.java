@@ -1,8 +1,8 @@
-package com.representqueens.lingua.en;
+package com.ogrodnek.lingua.en;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import static com.representqueens.lingua.en.Syllable.*;
+import static com.ogrodnek.lingua.en.Syllable.*;
 
 public final class SyllableTest {
   @Test
