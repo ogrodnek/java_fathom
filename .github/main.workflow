@@ -1,6 +1,6 @@
 workflow "Build" {
   resolves = ["Setup Java Action"]
-  on = "push"
+  on = ["push", "pull_request"]
 }
 
 action "Setup Java Action" {
