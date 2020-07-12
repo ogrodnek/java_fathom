@@ -1,3 +1,5 @@
+![ci](https://github.com/ogrodnek/java_fathom/workflows/ci/badge.svg)
+
 Measures the readability of English text.
 
 This package is pretty much a straight port of two Perl packages into Java:
